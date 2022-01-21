@@ -13,7 +13,7 @@ async function run(): Promise<void> {
     if (cmd !== '') {
       str_to_separate = await execCmd(cmd)
     } else {
-      if (str === '') {
+      if (str !== '') {
         str_to_separate = str
       } else {
         str_to_separate = '[]'
