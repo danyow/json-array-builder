@@ -3,7 +3,7 @@ description: 'Build JSON array to be used in dynamic matrix job'
 branding:
   color: blue
   icon: align-justify
-author: 'kanga333'
+author: 'danyow'
 inputs:
   str:
     required: false

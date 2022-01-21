@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kanga333/json-array-builder.git"
+    "url": "git+https://github.com/danyow/json-array-builder.git"
   },
   "keywords": [
     "actions",

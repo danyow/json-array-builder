@@ -1,8 +1,8 @@
 # json-array-builder
 
-![test](https://github.com/kanga333/json-array-builder/workflows/test/badge.svg)
+![test](https://github.com/danyow/json-array-builder/workflows/test/badge.svg)
 
-The `kanga333/json-array-builder` action is a TypeScript action that helps you to build JSON array to be used in dynamic matrix job.
+The `danyow/json-array-builder` action is a TypeScript action that helps you to build JSON array to be used in dynamic matrix job.
 
 ## Examples
 
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: kanga333/json-array-builder@master
+      - uses: danyow/json-array-builder@master
         id: array
         with:
           # Using this repository as an example, the output of the command is
