@@ -14,6 +14,10 @@ export function buildArray(
     dest.push(...splited)
     return JSON.stringify(dest)
   }
+  if (str === '') {
+    // 如果里面没有值的话, 继续走会输出 '[""]' 这样里面有个空内容 不好判断
+    return '[]'
+  }
   return JSON.stringify(splited)
 }
 
