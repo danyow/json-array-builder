@@ -1,4 +1,4 @@
-name: 'json-array-builder'
+name: 'json-matrix-builder'
 description: 'Build JSON array to be used in dynamic matrix job'
 branding:
   color: blue

@@ -1,5 +1,5 @@
 {
-  "name": "json-array-builder",
+  "name": "json-matrix-builder",
   "version": "0.1.0",
   "private": true,
   "description": "Build JSON array from string",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danyow/json-array-builder.git"
+    "url": "git+https://github.com/danyow/json-matrix-builder.git"
   },
   "keywords": [
     "actions",
