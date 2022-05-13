@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: danyow/json-matrix-builder@master
+      - uses: danyow/json-matrix-builder@main
         id: array
         with:
           # Using this repository as an example, the output of the command is
